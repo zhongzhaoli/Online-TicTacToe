@@ -1,0 +1,129 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+p{
+    margin:0;
+}
+
+.center_box{
+    text-align:center;
+}
+.center_box span{
+    line-height:50px;
+}
+.in_pipei{
+    display:none;
+}
+.pizz_box{
+    width:304px;
+    height:304px;
+    border:2px black solid;
+    position: relative;
+    margin:auto;
+    display:none;
+}
+.shu_o{
+    width:2px;
+    height:inherit;
+    position:absolute;
+    background:black;
+    margin-left:calc((100% - 2px)/3);
+    cursor:pointer;
+}
+.shu_t{
+    width:2px;
+    height:inherit;
+    position:absolute;
+    background:black;
+    margin-left:calc(((100% - 2px)/3)*2);
+    cursor:pointer;
+}
+.hen_o{
+    width:inherit;
+    height:2px;
+    position:relative;
+    margin-top:calc((100% - 2px)/3);
+    background:black;
+    cursor:pointer;
+}
+.hen_t{
+    width:inherit;
+    height:2px;
+    position:relative;
+    margin-top:calc((100% - 2px)/3);
+    background:black;
+    cursor:pointer;
+}
+.div_1{
+    width:101px;
+    height:101px;
+    position:absolute;
+    top:0;
+    left:0;
+    cursor:pointer;
+}
+.div_2{
+    width:98px;
+    height:101px;
+    position:absolute;
+    top:0;
+    left:103px;
+    cursor:pointer;
+}
+.div_3{
+    width:101px;
+    height:101px;
+    position:absolute;
+    top:0;
+    left:203px;
+    cursor:pointer;
+}
+.div_4{
+    width:101px;
+    height:100px;
+    position:absolute;
+    top:103px;
+    left:0;
+    cursor:pointer;
+}
+.div_5{
+    width:98px;
+    height:100px;
+    position:absolute;
+    top:103px;
+    left:103px;
+    cursor:pointer;
+}
+.div_6{
+    width:101px;
+    height:100px;
+    position:absolute;
+    top:103px;
+    left:203px;
+    cursor:pointer;
+}
+.div_7{
+    width:101px;
+    height:99px;
+    position:absolute;
+    top:205px;
+    left:0;
+    cursor:pointer;
+}
+.div_8{
+    width:98px;
+    height:99px;
+    position:absolute;
+    top:205px;
+    left:103px;
+    cursor:pointer;
+}
+.div_9{
+    width:101px;
+    height:99px;
+    position:absolute;
+    top:205px;
+    left:203px;
+    cursor:pointer;
+}
